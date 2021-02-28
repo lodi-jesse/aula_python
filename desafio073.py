@@ -1,0 +1,13 @@
+import os
+os.system('cls')
+lista_brasileirão = ('Flamengo','Internacional','Atlético-MG','São Paulo','Fluminense','Grêmio','Palmeira','Santos','Athetico-PR','Corinthians','Bragantino','Ceará','Atlético-GO','Sport Recife','Bahia','Fortaleza','Vasco da Gama','Goiás','Coritiba','Botafogo')
+print('-='*30)
+print(f'Lista de times do Brasileirão 2021: {lista_brasileirão}')
+print('-='*30)
+print(f'Os 5 primeiros são {lista_brasileirão[:5]}')
+print('-='*30)
+print(f'Os 4 últimos são {lista_brasileirão[-4:]}')
+print('-='*30)
+print(f'Times em ordem alfabética: {sorted(lista_brasileirão)}')
+print('-='*30)
+print(f'O Grêmio está na {lista_brasileirão.index("Grêmio")+1}º posição')
